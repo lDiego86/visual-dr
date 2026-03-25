@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import AboutBg from "../img/about/about.png"; // ✅ corregido
+import AboutBg from "../img/about/About.png"; // ✅ corregido
 
 export default function AboutSection() {
   return (
