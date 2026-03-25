@@ -1,12 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import AboutBg from "../img/about/about.png"; 
 
 export default function AboutSection() {
   return (
     <section
       className="relative py-24 px-6 bg-cover bg-center"
-      style={{ backgroundImage: `url(${AboutBg})` }}
+      style={{ backgroundImage: "url('/about.png')" }}
     >
       {/* Overlay oscuro + degradado */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/90"></div>
