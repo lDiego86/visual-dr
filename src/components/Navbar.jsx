@@ -142,7 +142,7 @@ export default function Navbar() {
             href="https://www.instagram.com/dr.visualcr"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-gray-200 hover:text-pink-400 transition-colors duration-300 drop-shadow group"
+            className="flex items-center justify-center w-full gap-2 text-gray-200 hover:text-pink-400 transition-colors duration-300 drop-shadow group text-center"
           >
             <FaInstagram className="w-5 h-5 transform transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110" />
             Instagram
