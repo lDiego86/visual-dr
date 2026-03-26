@@ -131,6 +131,7 @@ export default function Navbar() {
           >
             Galería
           </button>
+          
           <button
             onClick={() => navigate("/about")}
             className={`font-medium transition ${isActive("/about") ? "text-white" : "text-gray-200 hover:text-white"

@@ -2,10 +2,10 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 // IMPORTA SOLO ALGUNAS IMÁGENES
-import img1 from "../img/Galeria/img1.jpg";
-import img2 from "../img/Galeria/img2.jpg";
+import img1 from "../img/Galeria/img15.jpg";
+import img2 from "../img/Galeria/img37.jpg";
 import img3 from "../img/Galeria/img3.jpg";
-import img4 from "../img/Galeria/img4.jpg";
+import img4 from "../img/Galeria/img7.png";
 import img5 from "../img/Galeria/img5.jpg";
 import img6 from "../img/Galeria/img6.jpg";
 

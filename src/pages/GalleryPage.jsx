@@ -2,34 +2,38 @@ import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
 // IMÁGENES
-import img1 from "../img/Galeria/img1.jpg";
+import img1 from "../img/Galeria/img7.png";
 import img2 from "../img/Galeria/img2.jpg";
 import img3 from "../img/Galeria/img3.jpg";
 import img4 from "../img/Galeria/img4.jpg";
 import img5 from "../img/Galeria/img5.jpg";
 import img6 from "../img/Galeria/img6.jpg";
-import img7 from "../img/Galeria/img7.png";
+import img7 from "../img/Galeria/img1.jpg";
 import img8 from "../img/Galeria/img8.jpg";
-import img9 from "../img/Galeria/img9.jpg";
+import img9 from "../img/Galeria/img30.jpg";
 import img10 from "../img/Galeria/img10.jpg";
-import img11 from "../img/Galeria/img11.jpg";
+import img11 from "../img/Galeria/img13.jpg";
 import img12 from "../img/Galeria/img12.jpg";
-import img13 from "../img/Galeria/img30.jpg";
-import img14 from "../img/Galeria/img14.jpg";
-import img15 from "../img/Galeria/img15.jpg";
-import img16 from "../img/Galeria/img16.jpg";
-import img17 from "../img/Galeria/img17.png";
+import img13 from "../img/Galeria/img25.jpg";
+import img14 from "../img/Galeria/img9.jpg";
+import img15 from "../img/Galeria/img27.png";
+import img16 from "../img/Galeria/img15.jpg";
+import img17 from "../img/Galeria/img36.jpg";
 import img18 from "../img/Galeria/img22.jpg";
 import img19 from "../img/Galeria/img19.jpg";
 import img20 from "../img/Galeria/img18.png";
 import img21 from "../img/Galeria/img23.jpg";
-import img22 from "../img/Galeria/img25.jpg";
-import img23 from "../img/Galeria/img27.png";
-import img24 from "../img/Galeria/img25.jpg";
+import img22 from "../img/Galeria/img16.jpg";
+import img23 from "../img/Galeria/img14.jpg";
+import img24 from "../img/Galeria/img20.jpg";
 import img25 from "../img/Galeria/img28.png";
 import img26 from "../img/Galeria/img29.jpg";
-import img27 from "../img/Galeria/img30.jpg";
-import img28 from "../img/Galeria/img217.jpg";
+import img27 from "../img/Galeria/img11.jpg";
+import img28 from "../img/Galeria/img26.jpg";
+import img29 from "../img/Galeria/img21.jpg";
+import img30 from "../img/Galeria/img34.jpg";
+import img31 from "../img/Galeria/img35.jpg";
+import img32 from "../img/Galeria/img17.png";
 
 export default function GalleryPage() {
   const navigate = useNavigate();
@@ -43,7 +47,8 @@ export default function GalleryPage() {
     img13, img14, img15, img16,
     img17, img18, img19, img20,
     img21, img22, img23, img24,
-    img25, img26, img27, img28
+    img25, img26, img27, img28,
+    img29, img30, img31, img32
   ];
 
   // PRELOAD (carga rápida)
