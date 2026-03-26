@@ -120,7 +120,7 @@ export default function GalleryPage() {
 
         <button
           onClick={() =>
-            window.open("https://wa.me/50688971845", "_blank")
+            window.open("https://wa.me/50688971845?text=Hola, quiero agendar una sesión", "_blank")
           }
           className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl font-bold hover:scale-105 transition"
         >
@@ -150,6 +150,31 @@ export default function GalleryPage() {
           </div>
         ))}
       </div>
+
+      {/* BOTONES INFERIORES */}
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-center gap-6 mt-16">
+
+        <button
+          onClick={() => navigate("/")}
+          className="w-full md:w-auto text-sm border border-white px-6 py-3 rounded-xl hover:bg-white hover:text-black transition"
+        >
+          ← Volver
+        </button>
+
+        <button
+          onClick={() =>
+            window.open(
+              "https://wa.me/50688971845?text=Hola, quiero agendar una sesión",
+              "_blank"
+            )
+          }
+          className="w-full md:w-auto px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl font-bold hover:scale-105 transition shadow-lg"
+        >
+          Agendar sesión
+        </button>
+
+      </div>
+
 
       {/* LIGHTBOX PREMIUM */}
       {currentIndex !== null && (
