@@ -37,7 +37,7 @@ export default function DroneSection() {
         Fotografía y Video con Drone
       </h2>
       <p className="text-gray-400 mb-16 max-w-3xl mx-auto">
-        Capturamos tu mundo desde otra perspectiva. Imágenes y videos aéreos de alta calidad para eventos, inmuebles, turismo y proyectos especiales. Pilotos certificados y equipos de última tecnología.
+        Capturamos tu mundo desde otra perspectiva. Imágenes y videos aéreos de alta calidad para eventos, inmuebles, turismo y proyectos especiales. 
       </p>
 
       {/* Carrusel principal */}
