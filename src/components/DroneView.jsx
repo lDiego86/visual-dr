@@ -30,7 +30,7 @@ export default function DroneSection() {
 
   return (
     <section
-      id="drone" // 👈 CLAVE para navegación directa
+      id="drone" // para navegación directa
       className="bg-gray-900 py-24 px-6 text-center scroll-mt-32"
     >
       {/* Título */}

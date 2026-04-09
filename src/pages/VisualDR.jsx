@@ -7,6 +7,7 @@ import Testimonials from "../components/Testimonials";
 import Process from "../components/Process.jsx";
 import Tips from "../components/Tips.jsx";
 import DroneSection from "../components/DroneView.jsx";
+import Footer from "../components/Footer.jsx";
 
 export default function VisualDR() {
   return (
@@ -19,6 +20,7 @@ export default function VisualDR() {
       <Process />
       <Packages />
       <DroneSection />
+      <Footer />
     </div>
   );
 }
