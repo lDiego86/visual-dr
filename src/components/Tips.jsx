@@ -26,7 +26,9 @@ export default function Tips() {
   ];
 
   return (
-    <section className="relative bg-black text-white py-28 px-6 overflow-hidden">
+    <section
+      id="tips"
+      className="relative bg-black text-white py-28 px-6 overflow-hidden">
 
       {/* BACKGROUND GLOW */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-purple-600/20 blur-[120px] opacity-30"></div>

@@ -5,14 +5,12 @@ import img2 from "../img/Drone/Drone2.jpg";
 import img3 from "../img/Drone/Drone1.jpg";
 
 export default function DroneSection() {
-  const droneImages = [
-    img1, img2, img3
-  ]; // imágenes
+  const droneImages = [img1, img2, img3];
 
   const services = [
     {
       title: "Fotografía aérea",
-      text: "Capturas de eventos, paisajes y proyectos desde el aire. ",
+      text: "Capturas de eventos, paisajes y proyectos desde el aire.",
     },
     {
       title: "Video promocional",
@@ -31,13 +29,17 @@ export default function DroneSection() {
   const [current, setCurrent] = useState(0);
 
   return (
-    <section className="bg-gray-900 py-24 px-6 text-center">
+    <section
+      id="drone" // 👈 CLAVE para navegación directa
+      className="bg-gray-900 py-24 px-6 text-center scroll-mt-32"
+    >
       {/* Título */}
       <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-white">
         Fotografía y Video con Drone
       </h2>
+
       <p className="text-gray-400 mb-16 max-w-3xl mx-auto">
-        Capturamos tu mundo desde otra perspectiva. Imágenes y videos aéreos de alta calidad para eventos, inmuebles, turismo y proyectos especiales. 
+        Capturamos tu mundo desde otra perspectiva. Imágenes y videos aéreos de alta calidad para eventos, inmuebles, turismo y proyectos especiales.
       </p>
 
       {/* Carrusel principal */}
@@ -57,7 +59,7 @@ export default function DroneSection() {
             onClick={() => setCurrent(i)}
             className={`w-20 h-20 cursor-pointer rounded-xl overflow-hidden border-4 ${
               current === i ? "border-purple-500" : "border-white/10"
-            } transition-transform transform hover:scale-105 shadow-lg`}
+            } transition-transform hover:scale-105 shadow-lg`}
           >
             <img
               src={img}
@@ -68,15 +70,24 @@ export default function DroneSection() {
         ))}
       </div>
 
-      {/* Servicios */}
+      {/* Servicios con hover mejorado */}
       <div className="grid md:grid-cols-4 gap-10 max-w-6xl mx-auto mb-16">
         {services.map((service, i) => (
-          <div key={i} className="relative group">
+          <div key={i} className="relative group cursor-default">
+            <div className="relative bg-white/5 p-6 rounded-2xl border border-white/10 backdrop-blur-md overflow-hidden transition">
 
-            {/* Card */}
-            <div className="bg-white/5 p-6 rounded-2xl border border-white/10 backdrop-blur-md group-hover:scale-105 transition">
-              <h3 className="text-lg font-bold text-white mb-2">{service.title}</h3>
-              <p className="text-gray-300 text-sm">{service.text}</p>
+              {/* Parallax glow (igual estilo Hero) */}
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500">
+                <div className="absolute -top-10 -left-10 w-32 h-32 bg-purple-500/20 rounded-full blur-2xl group-hover:translate-x-3 group-hover:translate-y-3 transition-transform"></div>
+                <div className="absolute bottom-0 right-0 w-32 h-32 bg-pink-500/20 rounded-full blur-2xl group-hover:-translate-x-3 group-hover:-translate-y-3 transition-transform"></div>
+              </div>
+
+              <h3 className="text-lg font-bold text-white mb-2 relative z-10">
+                {service.title}
+              </h3>
+              <p className="text-gray-300 text-sm relative z-10">
+                {service.text}
+              </p>
             </div>
           </div>
         ))}

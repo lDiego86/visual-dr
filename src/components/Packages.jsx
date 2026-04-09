@@ -8,7 +8,9 @@ export default function Packages() {
   ];
 
   return (
-    <section className="bg-black text-white py-20 px-6">
+    <section 
+    id="paquetes" // para navegación directa
+    className="bg-black text-white py-20 px-6">
       
       {/* TÍTULO */}
       <h2 className="text-4xl font-extrabold text-center mb-6 text-white">

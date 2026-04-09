@@ -15,7 +15,9 @@ export default function GalleryPreview() {
   const images = [img1, img2, img3, img4, img5, img6];
 
   return (
-    <section className="bg-black text-white py-20 px-6">
+    <section 
+    id="fotografia" // 👈 CLAVE para navegación directa
+    className="bg-black text-white py-20 px-6">
       <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-16">
         Galería
       </h2>
