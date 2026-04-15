@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Packages() {
   const packages = [
-    { title: "Básico", price: "₡50,000", features: ["1 sesión de fotos", "12 fotos editadas", "Entrega digital", "1 foto impresa enmarcada"] },
-    { title: "Premium", price: "₡100,000", features: ["2 sesiones de fotos", "30 fotos editadas", "Video promocional corto", "1 foto impresa enmarcada"] },
-    { title: "Elite", price: "₡200,000", features: ["5 sesiones de fotos", "50 fotos editadas", "Video profesional completo", "Asesoría de branding", "1 foto impresa enmarcada"] },
+    { title: "Básico", price: "₡45,000", features: ["1 sesión de fotos", "12 fotos editadas", "Entrega digital", "1 foto impresa enmarcada"] },
+    { title: "Premium", price: "₡90,000", features: ["2 sesiones de fotos", "30 fotos editadas", "Video promocional corto", "1 foto impresa enmarcada"] },
+    { title: "Elite", price: "₡165,000", features: ["5 sesiones de fotos", "50 fotos editadas", "Video profesional completo", "Asesoría de branding", "1 foto impresa enmarcada"] },
   ];
 
   return (
