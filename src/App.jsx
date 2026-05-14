@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar.jsx";
 import VisualDR from "./pages/VisualDR.jsx";
 import GalleryPage from "./pages/GalleryPage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 import WhatsAppButton from "./components/WhatsAppButton.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/" element={<VisualDR />} />
           <Route path="/galeria" element={<GalleryPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </div>
