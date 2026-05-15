@@ -140,7 +140,7 @@ export default function GalleryPage() {
 
       {/* TÍTULO */}
       <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-16">
-        Galería Completa
+        Galería Fotográfica
       </h2>
 
       {/* GRID */}
