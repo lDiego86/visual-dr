@@ -44,9 +44,9 @@ export default function Hero() {
         transition={{ delay: 0.5, duration: 1 }}
         className="text-lg md:text-2xl text-gray-100 mb-8 z-10 max-w-2xl drop-shadow-lg"
       >
-        Contenido visual y estrategia que hacen crecer tu marca.<br />
-        Fotografía, video, drone y desarrollo de identidad para negocios y marcas.<br />
-        Transformamos ideas en experiencias que impactan y venden.
+        Contenido visual profesional para marcas, negocios y personas.<br />
+        Fotografía, video, drone y producción creativa diseñados para transmitir emociones, generar conexión y destacar tu esencia.<br />
+        Transformamos ideas en experiencias visuales auténticas, impactantes y memorables.
       </motion.p>
 
       {/* CTA */}
