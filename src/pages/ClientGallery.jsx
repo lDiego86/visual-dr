@@ -42,9 +42,6 @@ export default function ClientGallery() {
         const docRef = doc(db, "clientes", clientId);
         const docSnap = await getDoc(docRef);
 
-        console.log("CLIENT ID:", clientId);
-        console.log("EXISTS:", docSnap.exists());
-
         if (!docSnap.exists()) {
           console.error("Cliente no encontrado:", clientId);
           setGalleryConfig(null);
@@ -53,7 +50,7 @@ export default function ClientGallery() {
 
         const data = docSnap.data();
 
-        console.log("DATOS FIRESTORE:", data);
+        
 
         setGalleryConfig({
           id: docSnap.id,
