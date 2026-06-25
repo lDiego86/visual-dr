@@ -1,0 +1,14 @@
+{
+  "clientName": "Carlos Rojas",
+  "password": "Carlos2026",
+  "packageName": "Elite",
+  "maxSelections": 3,
+  "extraPhotoPrice": 2500,
+  "expires": "15 Octubre 2026",
+  "galleryFolder": "carlos-rojas",
+  "images": [
+    "IMG005.jpg",
+    "IMG006.jpg",
+    "IMG007.png"
+  ]
+}

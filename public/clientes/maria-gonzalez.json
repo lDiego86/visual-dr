@@ -1,0 +1,17 @@
+{
+  "clientName": "María González",
+  "password": "DR2026",
+  "packageName": "Premium",
+  "maxSelections": 3,
+  "extraPhotoPrice": 2500,
+  "expires": "30 Septiembre 2026",
+  "galleryFolder": "maria-gonzalez",
+  "images": [
+    "IMG001.jpg",
+    "IMG002.jpg",
+    "IMG003.jpg",
+    "IMG004.jpg",
+    "IMG005.jpg",
+    "IMG006.jpg"
+  ]
+}

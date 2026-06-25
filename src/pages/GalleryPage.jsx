@@ -43,6 +43,21 @@ import img38 from "../img/Galeria/img17.png";
 import img39 from "../img/Galeria/img46.jpg";
 import img40 from "../img/Galeria/img40.jpg";
 
+import img41 from "../img/Galeria/img41.jpg";
+import img42 from "../img/Galeria/img43.jpg";
+import img43 from "../img/Galeria/img47.jpg";
+import img44 from "../img/Galeria/img48.jpg";
+import img45 from "../img/Galeria/img49.jpg";
+import img46 from "../img/Galeria/img50.jpg";
+import img47 from "../img/Galeria/img51.jpg";
+import img48 from "../img/Galeria/img52.jpg";
+import img49 from "../img/Galeria/img53.jpg";
+import img50 from "../img/Galeria/img57.png";
+import img51 from "../img/Galeria/img54.jpg";
+import img52 from "../img/Galeria/img58.jpg";
+import img53 from "../img/Galeria/img59.png";
+import img54 from "../img/Galeria/img56.jpg";
+
 export default function GalleryPage() {
   const navigate = useNavigate();
   const [currentIndex, setCurrentIndex] = useState(null);
@@ -50,15 +65,17 @@ export default function GalleryPage() {
 
   const images = [
     img1, img2, img3, img4,
-    img5, img6, img7, img8,
-    img9, img10, img11, img12,
-    img13, img14, img15, img16,
-    img17, img18, img19, img20,
+    img5, img6, img52, img47,
+    img9, img10, img45, img12,
+    img54, img14, img15, img16,
+    img17, img18, img19, img53,
     img21, img22, img23, img24,
     img25, img26, img27, img28,
     img29, img30, img31, img32,
     img33, img34, img35, img36, 
-    img37, img38, img39, img40
+    img37, img54, img39, img40,
+    img13, img48, img50, img49,
+    img8, img41, img51, img7
   ];
 
   // PRELOAD (carga rápida)
