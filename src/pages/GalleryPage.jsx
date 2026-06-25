@@ -72,7 +72,7 @@ export default function GalleryPage() {
     img21, img22, img23, img24,
     img25, img26, img27, img28,
     img29, img30, img31, img32,
-    img33, img34, img35, img36, 
+    img33, img34, img35, img36,
     img37, img54, img39, img40,
     img13, img48, img50, img49,
     img8, img41, img51, img7
@@ -134,7 +134,9 @@ export default function GalleryPage() {
   };
 
   return (
-    <section className="bg-black text-white py-20 px-6 min-h-screen">
+    <section className="bg-black text-white py-20 px-6 min-h-screen"
+      onContextMenu={(e) => e.preventDefault()}
+      onDragStart={(e) => e.preventDefault()}>
 
       {/* HEADER */}
       <div className="max-w-6xl mx-auto flex justify-between items-center mb-12">
